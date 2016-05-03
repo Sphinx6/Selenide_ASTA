@@ -22,7 +22,7 @@ formatter.match({
   "location": "Task1Steps.browser_is_opened()"
 });
 formatter.result({
-  "duration": 6202745982,
+  "duration": 10926306885,
   "status": "passed"
 });
 formatter.scenario({
@@ -63,27 +63,9 @@ formatter.match({
   "location": "Task1Steps.i_am_on_Task_page(String)"
 });
 formatter.result({
-  "duration": 1236204974,
+  "duration": 1670364892,
   "status": "passed"
 });
 formatter.match({
   "location": "Task1Steps.i_add_all_products_into_the_basket()"
-});
-formatter.result({
-  "duration": 3337963,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat steps.Task1Steps.i_add_all_products_into_the_basket(Task1Steps.java:35)\r\n\tat ✽.When I add all products into the basket(src/test/resources/Task1.feature:10)\r\n",
-  "status": "pending"
-});
-formatter.match({
-  "location": "Task1Steps.all_products_will_be_in_the_basket()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "Task1Steps.sum_of_quantity_and_price_is_correct()"
-});
-formatter.result({
-  "status": "skipped"
-});
 });
