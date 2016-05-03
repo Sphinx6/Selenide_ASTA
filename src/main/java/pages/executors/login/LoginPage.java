@@ -3,7 +3,7 @@ package pages.executors.login;
 import pages.AbstractPage;
 import pages.locators.LoginLocators;
 import util.enums.CredentialType;
-import util.objects.Users;
+import objects.Users;
 
 import static com.codeborne.selenide.Selenide.$;
 

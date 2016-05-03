@@ -24,18 +24,18 @@ public class LoginLogoutPageSteps {
 
 	// logout implementation
 
-	@Given("^I am logged to ([^\"]*) portal$")
-	public void givenIAmLoggedToPortal(PageType page) throws Throwable {
-        if (!pageHeader.isLogoutLinkDisplayed()) {
-            loginPage.openLoginPage(page);
-            loginPage.loginSubmit(CredentialType.valid);
-        }
-	}
-
-	@When("^I press ([^\"]*) logout button$")
-	public void whenIPresLogoutButton(PageType page) throws Throwable {
-        pageHeader.logout();
-	}
+//	@Given("^I am logged to ([^\"]*) portal$")
+//	public void givenIAmLoggedToPortal(PageType page) throws Throwable {
+//        if (!pageHeader.isLogoutLinkDisplayed()) {
+//            loginPage.openLoginPage(page);
+//            loginPage.loginSubmit(CredentialType.valid);
+//        }
+//	}
+//
+//	@When("^I press ([^\"]*) logout button$")
+//	public void whenIPresLogoutButton(PageType page) throws Throwable {
+//        pageHeader.logout();
+//	}
 
 	// main implementation
 
@@ -54,16 +54,16 @@ public class LoginLogoutPageSteps {
 		loginPage.submit();
 	}
 
-	@Then("^I am not logged into ([^\"]*) portal$")
-	public void thenIAmNotLoggedIntoPortal(PageType page) throws Throwable {
-        assertEquals( PageTitle.titleLogin.get(), title());
-	}
-
-	@Then("^I am logged into ([^\"]*) portal$")
-	public void thenIAmLoggedIntoPortal(PageType page) throws Throwable {
-        pageHeader.getHeaderTextElement().shouldHave(text(PageTitle.headerPage.get()));
-        assertTrue(pageHeader.isLogoutLinkDisplayed());
-	}
+//	@Then("^I am not logged into ([^\"]*) portal$")
+//	public void thenIAmNotLoggedIntoPortal(PageType page) throws Throwable {
+//        assertEquals( PageTitle.titleLogin.get(), title());
+//	}
+//
+//	@Then("^I am logged into ([^\"]*) portal$")
+//	public void thenIAmLoggedIntoPortal(PageType page) throws Throwable {
+//        pageHeader.getHeaderTextElement().shouldHave(text(PageTitle.headerPage.get()));
+//        assertTrue(pageHeader.isLogoutLinkDisplayed());
+//	}
 
     @Then("^Login error messages are displayed$")
     public void Login_error_messages_are_displayed() throws Throwable {

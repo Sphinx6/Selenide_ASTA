@@ -3,7 +3,7 @@ package modules.executors.navigationBar;
 import modules.locators.NavigationBarLocators;
 import pages.AbstractPage;
 import util.enums.CredentialType;
-import util.objects.Users;
+import objects.Users;
 
 import java.util.Arrays;
 import java.util.List;

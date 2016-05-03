@@ -73,7 +73,12 @@
             <artifactId>cucumber-picocontainer</artifactId>
             <version>${info.cukes-version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-jvm</artifactId>
+            <version>${info.cukes-version}</version>
+            <type>pom</type>
+        </dependency>
 
         <dependency>
             <groupId>net._01001111</groupId>

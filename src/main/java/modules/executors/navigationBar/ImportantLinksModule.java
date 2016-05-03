@@ -3,7 +3,7 @@ package modules.executors.navigationBar;
 import modules.enums.ImportantLinkName;
 import modules.locators.NavigationBarLocators;
 import util.helpers.ElementByTextHelper;
-import util.objects.Users;
+import objects.Users;
 
 public class ImportantLinksModule extends NavigationBarModule {
 

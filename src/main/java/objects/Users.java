@@ -1,4 +1,4 @@
-package util.objects;
+package objects;
 
 import util.configurations.TestConfiguration;
 import util.enums.CredentialType;
@@ -59,9 +59,9 @@ public class Users {
                 return users;
 
             case invalid:
-                String cred = generator.getRandomSentence();
-                users.setUsername(cred);
-                users.setPassword(cred);
+                //String cred = generator.getRandomSentence();
+//                users.setUsername(cred);
+//                users.setPassword(cred);
                 return users;
 
             default:
