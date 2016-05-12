@@ -11,9 +11,6 @@ import java.util.Properties;
 
 public class TestConfiguration extends Properties {
 
-    public String defaultUserName;
-    public String defaultUserPassword;
-    public String defaultUserEmail;
 
     public TestConfiguration() {
         InputStream is = null;
@@ -40,10 +37,7 @@ public class TestConfiguration extends Properties {
         Configuration.timeout = Long.parseLong(properties.getProperty("timeout"));
         Configuration.startMaximized = Boolean.parseBoolean(properties.getProperty("startMaximized"));
         Configuration.reportsFolder = properties.getProperty("reportsFolder");
-
-        defaultUserName = properties.getProperty("defaultUserName");
-        defaultUserPassword = properties.getProperty("defaultUserPassword");
-        defaultUserEmail = properties.getProperty("defaultUserEmail");
+        Configuration.pageLoadStrategy = properties.getProperty("pageLoadStrategy");
     }
 
 }

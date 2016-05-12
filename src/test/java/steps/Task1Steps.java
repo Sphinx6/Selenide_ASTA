@@ -33,22 +33,16 @@ public class Task1Steps {
 
     @When("^I add all products into the basket$")
     public void i_add_all_products_into_the_basket() throws Throwable {
-        float a =task1Page.getItemPrice(task1Page.locators.items.get(0));
-        String b = task1Page.getItemTitle(task1Page.locators.items.get(0));
-        task1Page.setItemQuantity(task1Page.locators.items.get(0), 10);
-        task1Page.addItemToCart(task1Page.locators.items.get(0));
-
+        task1Page.addItemsToCart();
     }
 
     @Then("^All products will be in the basket$")
     public void all_products_will_be_in_the_basket() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        task1Page.assertCartContent();
     }
 
     @Then("^Sum of quantity and price is correct$")
     public void sum_of_quantity_and_price_is_correct() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        task1Page.assertCartSummary();
     }
 }

@@ -6,6 +6,12 @@ public class Item {
     private float price;
     private int addedQuantity;
 
+    public Item(String name, float price, int addedQuantity){
+        this.name = name;
+        this.price = price;
+        this.addedQuantity = addedQuantity;
+    }
+
     public String getName() {
         return name;
     }
