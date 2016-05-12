@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Welcome!</title>
+    <link href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/assets/vendor/select2/dist/css/select2.css" />
+    <link rel="stylesheet" href="/css/task_2/main.css" />
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container logos">
+            <div class="col-sm-10 col-md-10">
+                <a href="https://asta.pgs-soft.com/"><img height="48" alt="ASTA" class="main-logo" src="/images/asta.png" /></a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-md-offset-1">
+                <div class="pgs-logo"><img height="48" alt="PGS Software" class="main-logo" src="/images/pgs-logo.png" /></div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-fixed-top bg-color">
+        <div class="container">
+            <div class="navbar-header">
+                <div id="bs-example-navbar-collapse-9" class="collapse navbar-collapse">
+                    <div class="col-sm-10 col-md-10 ">
+                        <ul class="nav navbar-nav navbar-task">
+                        <li>
+                                                            <a href="/task_1"><img height="24" alt="Poprzednie" src="/images/chevron_left.svg" /></a>
+                                                        </li>
+                            <li>Zadanie 2</li>
+                            <li>
+                                                            <a href="/task_3"><img height="24" alt="Następne" src="/images/chevron_right.svg" /></a>
+                                                        </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 col-md-2">
+                        <a href="/" class="home"><img height="24" alt="Następne" src="/images/list_24px.svg" /> Lista zadań</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container helpers">
+            <div class="col-sm-10 col-md-10">
+                <span class="open-details">Treść zadania</span> | <span id="main-reset">Resetuj dane</span>
+            </div>
+            <div class="col-sm-2 col-md-2">
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-md-12">
+                            <div class="custom-modal">
+                    <div class="custom-modal-body">
+                        <div class="col-md-12 taskDescription clearfix">
+                            <h4>Nazwa funkcjonalności:</h4><div class="close"><img height="24" src="/images/close_24px.svg" /></div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    Filtrowanie produktów po kategorii
+                                </div>
+                            </div>
+                            <h4>Opis funkcjonalności:</h4>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                   
+                <p>Lista dostępnych kategorii wraz z polem wyszukiwania pojawia się po kliknięciu w pole ‘Proszę wybrać kategorie’.</p>
+                <p>Wyszukiwanie zawiera system podpowiedzi, tj. po wpisaniu kilku znaków wyświetla się kategoria o nazwie, zawierającej wpisaną frazę lub fragment tekstu.</p>
+                <p>Funkcja podpowiedzi mapuje wpisaną frazę również na polskie znaki, czyli na przykład po wpisaniu „pilka” otrzymalibyśmy podpowiedź „piłka”.</p>
+                <p>Filtrowanie produktów następuje po wybraniu kategorii. Wyświetlane są tylko te, które należą do danej kategorii.</p>
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="task">
+                    <h1>Wybierz produkt</h1>
+    <div class="col-md-4">
+        
+                                                
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                                                
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                                                
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                <select class="js-category-select select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+            <option value="-1"></option>
+                            <option value="Sport">Sport</option>
+                            <option value="Elektronika">Elektronika</option>
+                            <option value="Firma i usługi">Firma i usługi</option>
+                    </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 340px;"><span class="selection"><span aria-expanded="false" aria-haspopup="true" role="combobox" class="select2-selection select2-selection--single" tabindex="0" aria-labelledby="select2-770g-container"><span class="select2-selection__rendered" id="select2-770g-container"><span class="select2-selection__placeholder">Proszę wybrać kategorie</span></span><span role="presentation" class="select2-selection__arrow"><b role="presentation"></b></span></span></span><span aria-hidden="true" class="dropdown-wrapper"></span></span>
+    </div>
+    <div class="col-md-8">
+    </div>
+    <br />
+    <br />
+    <div class="col-md-12" id="product-list">
+                                    <div class="row">
+                        <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Piłka</h4>
+
+                        <p>Cena: 15.54 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Sport</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Buty</h4>
+
+                        <p>Cena: 15.54 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Sport</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Spodnie</h4>
+
+                        <p>Cena: 15.54 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Sport</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Koszulka</h4>
+
+                        <p>Cena: 4.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Sport</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Rower</h4>
+
+                        <p>Cena: 67.52 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Sport</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Śpiwór</h4>
+
+                        <p>Cena: 34.26 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Sport</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                            </div>
+                                                <div class="row">
+                        <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Aparat</h4>
+
+                        <p>Cena: 567.52 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Elektronika</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Monitor Color</h4>
+
+                        <p>Cena: 53.72 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Elektronika</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Monitor Mono</h4>
+
+                        <p>Cena: 834.20 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Elektronika</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Klawiatura</h4>
+
+                        <p>Cena: 24.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Elektronika</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Mysz</h4>
+
+                        <p>Cena: 0.99 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Elektronika</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Switch</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Elektronika</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                            </div>
+                                                <div class="row">
+                        <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Biuro XYZ</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Firma i usługi</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Papier perłowy</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Firma i usługi</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Fotel obrotowy</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Firma i usługi</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Zszywki</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Firma i usługi</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Koperty</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Firma i usługi</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-sm-6 col-md-2">
+                <div class="thumbnail">
+                    <img class="img-circle" src="/images/coming_soon.png" />
+
+                    <div class="caption">
+                        <h4>Taśma</h4>
+
+                        <p>Cena: 34.22 zł</p>
+
+                        <p>Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac.</p>
+
+                        <p><strong>Firma i usługi</strong></p>
+
+                    </div>
+                </div>
+            </div>
+                            </div>
+                        </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="container">
+            <a href="https://www.pgs-soft.com">PGS Software</a> | <a href="https://www.pgs-soft.com/pl/kariera/?t=">Kariera</a>
+        </div>
+    </footer>
+
+<script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/vendor/lodash/lodash.min.js"></script>
+<script src="/js/main.js"></script>
+
+    <script src="/js/task_2/main.js"></script>
+
+    <script>
+        var productArray = [{"id":"product-5734278e725bb","name":"Pi\u0142ka","category":"Sport","price":"15.54","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72672","name":"Buty","category":"Sport","price":"15.54","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72720","name":"Spodnie","category":"Sport","price":"15.54","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e727ce","name":"Koszulka","category":"Sport","price":"4.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72880","name":"Rower","category":"Sport","price":"67.52","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e7292c","name":"\u015apiw\u00f3r","category":"Sport","price":"34.26","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e729d9","name":"Aparat","category":"Elektronika","price":"567.52","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72aa9","name":"Monitor Color","category":"Elektronika","price":"53.72","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72b6a","name":"Monitor Mono","category":"Elektronika","price":"834.20","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72d05","name":"Klawiatura","category":"Elektronika","price":"24.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72dbb","name":"Mysz","category":"Elektronika","price":"0.99","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e72e66","name":"Switch","category":"Elektronika","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e738e7","name":"Biuro XYZ","category":"Firma i us\u0142ugi","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e739a5","name":"Papier per\u0142owy","category":"Firma i us\u0142ugi","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e73a68","name":"Fotel obrotowy","category":"Firma i us\u0142ugi","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e73b14","name":"Zszywki","category":"Firma i us\u0142ugi","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e73bc3","name":"Koperty","category":"Firma i us\u0142ugi","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."},{"id":"product-5734278e73c72","name":"Ta\u015bma","category":"Firma i us\u0142ugi","price":"34.22","description":"Suspendisse fringilla enim libero, vitae tincidunt sapien fringilla ac."}],
+                imgSrc = '/images/coming_soon.png';
+    </script>
+    <script src="/assets/vendor/select2/dist/js/select2.js"></script>
+
+</body></html>
