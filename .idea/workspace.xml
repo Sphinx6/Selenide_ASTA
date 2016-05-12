@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2b5560e-d692-4613-ba3f-c554c5f9b68c" name="Default" comment="Task2">
+    <list default="true" id="e2b5560e-d692-4613-ba3f-c554c5f9b68c" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/executors/Task2Page.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/locators/Task2Locators.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462802241808.0.png" />
@@ -11,10 +11,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463035892271.0.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463036731456.0.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/steps/Task2Steps.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pages/executors/Task3Page.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pages/locators/Task3Locators.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/steps/Task3Steps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Task3.feature" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462802241808.0.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462860508186.0.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462975223244.0.html" />
@@ -22,12 +18,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463035892271.0.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463036731456.0.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Task2.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pages/executors/searchResults/SearchResultPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pages/locators/LoginLocators.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pages/locators/SearchResultLocators.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pages/executors/searchResults/SearchResultPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pages/locators/LoginLocators.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pages/locators/SearchResultLocators.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/configurations/TestConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/util/configurations/TestConfiguration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties.properties" afterPath="$PROJECT_DIR$/target/classes/properties.properties" />
@@ -1051,7 +1041,14 @@
       <option name="project" value="LOCAL" />
       <updated>1463043315122</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task3">
+      <created>1463060553872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1463060553872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1127,7 +1124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task2" />
+    <MESSAGE value="Task3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
