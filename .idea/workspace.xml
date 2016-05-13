@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2b5560e-d692-4613-ba3f-c554c5f9b68c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/executors/Task2Page.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/locators/Task2Locators.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462802241808.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462860508186.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462975223244.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463035798916.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463035892271.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463036731456.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/steps/Task2Steps.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462802241808.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462860508186.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1462975223244.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463035798916.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463035892271.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.html/1463036731456.0.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/Task2.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/configurations/TestConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/util/configurations/TestConfiguration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pages/executors/Task4Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pages/locators/Task4Locators.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties.properties" afterPath="$PROJECT_DIR$/target/classes/properties.properties" />
     </list>
     <ignored path="SelenideFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,30 +46,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task3.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/Task3.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task3Steps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Task3Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/configurations/TestConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task3Page.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task3Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/executors/Task3Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="393">
@@ -113,6 +73,34 @@
                 <element signature="e#2361#2362#0" expanded="true" />
                 <element signature="e#2392#2393#0" expanded="true" />
                 <element signature="e#2444#2445#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task4Locators.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/locators/Task4Locators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task4Page.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/executors/Task4Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,6 +154,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/locators/Task3Locators.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Task3Steps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/executors/Task3Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/locators/Task4Locators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/executors/Task4Page.java" />
       </list>
     </option>
   </component>
@@ -1138,21 +1128,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginLogoutPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/modules/enums/ImportantLinkName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1411,7 +1386,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1439,9 +1414,9 @@
         <state relative-caret-position="410">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1511,9 +1486,9 @@
         <state relative-caret-position="410">
           <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1534,6 +1509,30 @@
             <element signature="e#2361#2362#0" expanded="true" />
             <element signature="e#2392#2393#0" expanded="true" />
             <element signature="e#2444#2445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/locators/Task4Locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/executors/Task4Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
