@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/cucumber.json", "pretty", "html:target/cucumber.html"},
         //features = "classpath:",
-        features = "src/test/resources/Task1.feature",
+        //features = "src/test/resources/Task1.feature",
         glue = "classpath:",
         //tags = {"@runnable", "~@unfinished"},
         dryRun = false)

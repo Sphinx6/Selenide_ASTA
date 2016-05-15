@@ -22,7 +22,7 @@ formatter.match({
   "location": "Task1Steps.browser_is_opened()"
 });
 formatter.result({
-  "duration": 10926306885,
+  "duration": 4119566472,
   "status": "passed"
 });
 formatter.scenario({
@@ -63,9 +63,28 @@ formatter.match({
   "location": "Task1Steps.i_am_on_Task_page(String)"
 });
 formatter.result({
-  "duration": 1670364892,
+  "duration": 514945990,
   "status": "passed"
 });
 formatter.match({
   "location": "Task1Steps.i_add_all_products_into_the_basket()"
+});
+formatter.result({
+  "duration": 7271399702,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Task1Steps.all_products_will_be_in_the_basket()"
+});
+formatter.result({
+  "duration": 1694289204,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Task1Steps.sum_of_quantity_and_price_is_correct()"
+});
+formatter.result({
+  "duration": 56292315,
+  "status": "passed"
+});
 });
