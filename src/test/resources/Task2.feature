@@ -1,4 +1,4 @@
-Feature: Task1
+Feature: Task2
   As user
   I want to filter products by group
 
