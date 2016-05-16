@@ -2,9 +2,6 @@ Feature: Task5
   As user
   I want to upload text file
 
-  Background:
-    Given Browser is opened
-
   Scenario: Upload file with data
     Given I am on Task "5" page
     And file with data is prepared

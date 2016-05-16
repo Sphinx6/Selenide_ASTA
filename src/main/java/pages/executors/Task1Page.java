@@ -13,7 +13,7 @@ import java.util.Random;
 public class Task1Page {
 
     public Task1Locators locators;
-    public List<Item> addedItems = new ArrayList<Item>();
+    public List<Item> addedItems = new ArrayList<>();
 
     public Task1Page(Task1Locators locators){
         this.locators = locators;

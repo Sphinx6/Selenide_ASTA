@@ -6,6 +6,8 @@ import util.helpers.RandomStringGenerator;
 import java.util.Random;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selenide.close;
+import static com.codeborne.selenide.Selenide.sleep;
 import static com.codeborne.selenide.Selenide.switchTo;
 
 public class Task4Page {
@@ -49,6 +51,7 @@ public class Task4Page {
 
     public void assertMessage(){
         locators.message.shouldHave(text("Wiadomość została wysłana"));
+        //switchTo().window(1).close();
     }
 
 }

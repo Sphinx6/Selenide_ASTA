@@ -21,8 +21,7 @@ public class Task1Steps {
 
     @Given("^Browser is opened$")
     public void browser_is_opened() throws Throwable {
-        new TestConfiguration();
-        open("/");
+
     }
 
     @Given("^I am on Task \"([^\"]*)\" page$")

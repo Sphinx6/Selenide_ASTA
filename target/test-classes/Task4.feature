@@ -1,10 +1,8 @@
 Feature: Task4
   As user
-  I want apply for a job
+  I want to apply for a job
 
-  Background:
-    Given Browser is opened
-
+  @NewWindow
   Scenario: Fill apply form
     Given I am on Task "4" page
     When I click apply

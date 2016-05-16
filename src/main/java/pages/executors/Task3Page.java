@@ -71,19 +71,19 @@ public class Task3Page {
     }
 
     public String getName(){
-        return locators.nameInput.getText();
+        return locators.nameInput.getValue();
     }
 
     public String getSurname(){
-        return locators.surnameInput.getText();
+        return locators.surnameInput.getValue();
     }
 
     public String getNote(){
-        return locators.notesInput.getText();
+        return locators.notesInput.getValue();
     }
 
     public String getPhone(){
-        return locators.phoneInput.getText();
+        return locators.phoneInput.getValue();
     }
 
     public void uploadFile(){
