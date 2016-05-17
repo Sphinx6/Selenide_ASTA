@@ -1,12 +1,14 @@
 package objects;
 
+import java.math.BigDecimal;
+
 public class Item {
 
     private String name;
-    private float price;
+    private BigDecimal price;
     private int addedQuantity;
 
-    public Item(String name, float price, int addedQuantity){
+    public Item(String name, BigDecimal price, int addedQuantity){
         this.name = name;
         this.price = price;
         this.addedQuantity = addedQuantity;
@@ -20,11 +22,11 @@ public class Item {
         this.name = name;
     }
 
-    public float getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
