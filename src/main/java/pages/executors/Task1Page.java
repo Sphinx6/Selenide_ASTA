@@ -6,6 +6,7 @@ import com.codeborne.selenide.SelenideElement;
 import pages.locators.Task1Locators;
 import objects.Item;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -23,9 +24,9 @@ public class Task1Page {
         return item.find("h4").text();
     }
 
-    public float getItemPrice(SelenideElement item){
+    public BigDecimal getItemPrice(SelenideElement item){
         String price = item.find("p").text();
-        return Float.parseFloat(price.split(" ")[1]);
+        return new BigDecimal(price.split(" ")[1]);
     }
 
     public void setItemQuantity(SelenideElement item, int qunatity){
@@ -60,9 +61,9 @@ public class Task1Page {
         return Integer.parseInt(locators.quantitySummary.getText());
     }
 
-    public float getPriceSummary(){
+    public BigDecimal getPriceSummary(){
         String price = locators.priceSummary.getText().split(" ")[0];
-        return Float.parseFloat(price);
+        return new BigDecimal(price);
     }
 
     public void assertCartContent(){
@@ -82,14 +83,14 @@ public class Task1Page {
 
     public void assertCartSummary(){
         int expectedTotalQuantity = 0;
-        float expectedTotalPrice = 0;
+        BigDecimal expectedTotalPrice = BigDecimal.ZERO;
 
         for(Item item : addedItems) {
             expectedTotalQuantity += item.getAddedQuantity();
-            expectedTotalPrice += item.getAddedQuantity() * item.getPrice();
+            expectedTotalPrice = expectedTotalPrice.add(item.getPrice().multiply(new BigDecimal(item.getAddedQuantity())));
         }
 
-        assert expectedTotalPrice == getPriceSummary() :
+        assert expectedTotalPrice.equals(getPriceSummary()) :
                 String.format("Incorrect total price: %f|%f", expectedTotalPrice, getPriceSummary());
 
         assert expectedTotalQuantity == getQuantitySummary() :
